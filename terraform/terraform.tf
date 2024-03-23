@@ -30,10 +30,11 @@ terraform {
     bucket = "vprofile-actions-2"
     key    = "terraform.tfstate"
     region = "us-east-1"
-    #profile = 
   }
 
   # required_version = "~> 1.6.6"
-  # required_version = "~> 2.7.0"
 }
+##
+##
+
 
