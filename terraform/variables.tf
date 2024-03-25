@@ -10,7 +10,7 @@ variable "clusterName" {
   default     = "vprofile-eks"
 }
 
-varieble "profile" {
+variable "profile" {
   description = Name of AWS profile
   type        = string
   default     = "Terraform"
