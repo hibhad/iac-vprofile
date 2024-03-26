@@ -32,13 +32,12 @@ terraform {
     region = "us-east-1"
   }
 
-  provider "aws" {
-    profile = "Terraform"  # Specify the profile name here
-    region  = "us-east-1"   # Set your desired AWS region
+  required_version = "~> 1.7.5"   # Latest version as of now
   }
 
-  required_version = "~> 1.7.5"   # Latest version as of now
+provider "aws" {
+  profile = "Terraform"  # Specify the profile name here
+  region  = "us-east-1"  #  Set your desired AWS region
 }
-
 
 
