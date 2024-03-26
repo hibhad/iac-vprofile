@@ -5,6 +5,7 @@ provider "kubernetes" {
 
 provider "aws" {
   region = var.region
+  profile = "Terraform"  # Specify the profile name here
 }
 
 data "aws_availability_zones" "available" {}
